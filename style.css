@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'my-font';
+    src: url("./asserts/fonts/heebo.light.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "my-font";
+    background-image: url("../weather/weather-img/clearsky.jpg");
+    width: 100vw;
+    height: auto;
+}
+h1{
+    font-size: 2vw;
+    margin-top: 3vw;
+    text-align: center;
+}
+#text1{
+    width: 15vw;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0px 15px;
+    height: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.77);
+    background-color: rgba(255, 255, 255, 0.725); 
+    border-radius: 0px;
+    border-radius: 15px;
+    box-shadow: none;
+    vertical-align: middle;
+    transition: border-color 0.5s ease 0s;
+}
+#wButton{
+    -webkit-box-pack: center;
+    text-align: center;
+    -webkit-box-align: center;
+    width: 10vw;
+    height: 3vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.725);
+    background-color: rgba(0, 0, 0, 0.77) ;
+    border: 3px rgba(0, 0, 0, 0.77) solid;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+#wButton:hover{
+    color: rgba(0, 0, 0, 0.77);
+    background-color: rgba(255, 255, 255, 0.725); 
+}
+#container{
+    width: 30vw;
+    margin-top: 15px;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(102, 102, 154, 0.4);
+    border-radius: 15px;
+}
+#cityname-div{
+   font-size: 4vw;
+   margin-top: 10px;
+}
+#temp-div{
+    font-size: 5vw;
+    margin-top: 0.1vw;
+}
+#description-div{
+    font-size: 3vw;
+    margin-top: 0.1vw;
+}
+#changer:hover{
+    color: rgba(0, 0, 0, 0.77);
+    background-color: rgba(255, 255, 255, 0.725);   
+}
+#changer{
+    color: rgba(255, 255, 255, 0.725);
+    background-color: rgba(0, 0, 0, 0.77) ;
+    border: 3px rgba(0, 0, 0, 0.77) solid;
+    width: 7vw;
+    height: 2.5vw;
+    border-radius: 15px;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+#header1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#details1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vw;
+}
+#lastdiv{
+    display: flex;
+    align-items: center;
+}
